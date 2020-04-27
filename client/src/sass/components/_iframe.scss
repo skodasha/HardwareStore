@@ -1,0 +1,27 @@
+.iframe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    iframe{
+        position: absolute;
+        margin: -150px auto;
+        width:40%;
+        height:50%;
+    }
+    @media (max-width: 375px){
+        iframe{
+            margin-top: -700px;
+            width: 89%;
+            height: 30%;
+        }
+    }
+    @media (max-width: 540px){
+        iframe{
+            position: absolute;
+            margin: -150px auto;
+            width:80%;
+            height:35%;
+        }  
+    }
+
+}

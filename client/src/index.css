@@ -1,0 +1,101 @@
+.NavBar{
+    background-color: rgb(252, 236, 192);
+}
+
+.tableTools{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.form{
+    width: 60%;
+    margin: 30px auto;
+}
+
+.btnSubmit{
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+}
+
+td{
+    text-align: center;
+    width: 13%;
+}
+
+.tdSmall{
+    width: 10%;
+}
+
+.tdLarge{
+    width: 40%;
+}
+
+.imgTool{
+    width: 90%;
+}
+
+.menu{
+    width: 220px;
+    float: left;
+}
+
+.btnSection{
+    background-color: rgb(252, 236, 192);
+    border: none;
+}
+
+.btnSection:active{
+    background-color: rgb(253, 220, 128);
+    border: none;
+}
+
+
+.btnSubsection{
+    background-color: rgb(253, 250, 241);
+    border: none;
+}
+.btnSubsection:hover{
+    background-color:rgb(252, 236, 192);
+}
+.btnSubsection:active{
+    background-color: rgb(252, 236, 192);
+    border: none;
+}
+.btnSubsection:focus{
+    background-color: rgb(252, 236, 192);
+}
+.option:hover{
+    background-color: rgb(252, 236, 192);
+}
+
+.btnGroup{
+    width: 98%;
+}
+
+.storeName{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(252, 236, 192);
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.imgToolItem{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    float: left;
+}
+.toolItem h4{
+    padding: 10px;
+}
+
+.toolPrice{
+    margin-top: 20px;
+}
+.toolPrice h1{
+    float: left;
+}

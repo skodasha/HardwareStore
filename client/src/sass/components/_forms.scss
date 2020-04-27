@@ -1,0 +1,52 @@
+.form{
+    width: 506px;
+    
+    margin: 10px auto;
+    background: $bg-color;
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 20px;
+    color:$white;    
+    h2{
+        margin: 30px;
+        padding-top: 30px;
+        text-align: center;
+        font-family: FuturaDemiC;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: $white;        
+    }
+
+    input{
+        width: 76%;
+        border: none;
+        margin-left: 60px;
+        font-family: FuturaBookC;
+        font-size: 18px;
+        line-height: 24px;
+        color: $white;
+        background: $bg-color;
+    }
+
+    hr{
+        margin-left: 60px;
+        margin-right: 60px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    button{
+        border: none;
+        width: 213px;
+        height: 51px;
+        margin-top: 30px; 
+        margin-left: 150px;
+        margin-bottom: 25px;
+        font-family: FuturaDemiC;
+        font-size: 15px;
+        line-height: 26px;
+        background-color: $main-color;
+        color: white;
+        text-transform: uppercase;
+    }
+}

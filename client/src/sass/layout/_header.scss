@@ -1,0 +1,18 @@
+.header {
+    height: 83px;
+    background: $bg-color;
+    width: 100%;
+    .wrapper{
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    @media (max-width: 375px),(max-width: 950px){
+        height: 57px; 
+        .wrapper{
+            margin: 0 auto;
+        }
+    }
+}

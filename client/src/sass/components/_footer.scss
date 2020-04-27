@@ -1,0 +1,39 @@
+.footer{
+    h1{
+        font-family: FuturaDemiC;
+        font-size: 14px;
+        line-height: 16px;
+        color: $main-color;
+        margin-right: 40px;
+    }
+    
+    nav a{
+        text-decoration-line: none;
+        font-family: FuturaBookC;
+        font-size: 14px;
+        line-height: 16px;
+        color: white;
+        padding-right: 27px;
+    }
+
+    nav a:first-child{
+        color: $main-color;
+    }
+
+    a{
+        font-family: FuturaDemiC;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: $main-color;
+    }
+    button{
+        border: none;
+        width: 161px;
+        height: 37px;
+        background-color: $main-color;
+        color: white;
+        text-transform: uppercase;
+    }
+}

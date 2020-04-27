@@ -1,0 +1,475 @@
+.main{
+    height: auto;
+    &--section1 {
+        &-inst{
+            width: 6%;
+            padding-top: 250px;
+            justify-content: center;
+            flex-direction: column;
+            h2{
+                display: block;
+                transform: rotate(90deg);
+                a{
+                    color: $main-color;
+                    text-align: center;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-family: FuturaDemiC;
+                    font-size: 14px;
+                    line-height: 16px;
+                }          
+            }
+            hr{
+                transform: rotate(90deg);
+                margin-top: 90px;
+                border:1px solid $main-color;
+                background: $main-color;
+            }
+        }
+
+        &-item{
+            background: url(assets/images/advertisement1.png);
+            width: 94%;
+            .wrapper{
+                width: 90%;
+                h1{
+                    width: 530px;
+                    margin-top: 100px;
+                    font-family: Yeseva One;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 40px;
+                    line-height: 53px;
+                    text-transform: uppercase;
+                    color: white;
+                    span{
+                        color: $main-color;
+                    }  
+                }
+                p{
+                    width: 460px;
+                    font-family: FuturaBookC;
+                    font-size: 22px;
+                    line-height: 30px;
+                    color: white;
+                }
+                .calculate{
+                    border: none;
+                    margin-top: 10px;
+                    width: 207px;
+                    height: 51px;
+                    background-color: $main-color;
+                    color: $white;
+                }
+                .submit{
+                    margin-left: 20px;
+                    width: 207px;
+                    height: 51px;
+                    background-color: Transparent;
+                    color: $white;
+                    border: 1px solid $white;
+                }
+                .scroll{
+                    position: absolute;
+                    width: 247px;
+                    height: 97px;
+                    top: 740px;
+                    left: 0px;
+                    background-color: $bg-color;
+                    font-family: Yeseva One;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: $white;
+                    border:none;
+                    padding-right: 50px;
+                    .ico{
+                        position: relative;
+                    }
+                    .ico:after{
+                        position: absolute;
+                        width: 33px;
+                        height: 33px;
+                        left: 20px;
+                        top: -10px;   
+                        content: '';
+                        background-image: url(assets/images/Ellipse2.svg);
+                        background-size: cover;
+                    }
+                }
+            }    
+        }
+        @media (max-width: 950px){
+            &-inst{
+                display: none;
+            }
+            &-item{
+                width: 100%;
+            }
+        }
+        @media (max-width: 375px),(max-width: 540px){
+            &-inst{
+                display: none;
+            }
+            &-item{
+                width: 100%;
+                background: url(assets/images/headmob.png);
+                .wrapper{
+                    width: 89%;
+                    h1{
+                        font-size: 23px;
+                        width: 300px;
+                        line-height: 132.83%;
+                        margin-top: 90px;
+                    }
+                    p{
+                        font-size: 18px;
+                        line-height: 135.84%;
+                        width: 320px;
+                    }
+                    .calculate{
+                        width: 100%;
+                    }
+                    .submit{
+                        margin-left: 0px;
+                        margin-top: 20px;
+                        width: 100%;  
+                    }
+                    .scroll{
+                        display: none;
+                    } 
+                }
+            }
+        }   
+    }
+
+    &--section7{
+        padding-top: 30px;
+        .menu{
+            float: left;
+            width: 20%;
+        }
+        .tool{
+            margin-left: 25%;
+            width: 75%;
+            height: auto;
+            &--item{
+                height: 280px;
+                
+                &-pic{
+                   width: 200px;
+                   height: 200px;
+                   margin: 15px;
+                   margin-top: 40px;
+                   float: left;
+                }
+                &-info{
+                    h3{
+                        padding-top: 20px;
+                        font-family: Yeseva One;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
+                    h4{
+                        margin-top: -10px;
+                        font-family: FuturaBookC;
+                        font-size: 18px;
+                        line-height: 26px;                    
+                        color: #959595;
+                    }
+                    h5{
+                        width: 95%;
+                        font-family: FuturaBookC;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 13px;
+                        line-height: 20px;
+                        padding-top: 15px;
+                    }
+                }
+            }
+            .toolPrice{
+                margin-top: 30px;
+                h1{
+                    font-family: Yeseva One;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 27px;
+                    line-height: 25px;
+                    float: left;
+                }
+                button{
+                    margin-top: -8px;
+                    margin-left: 30%;
+                    width: 161px;
+                    height: 37px;
+                    background-color: Transparent;
+                    color: $main-color;
+                    border: 0.5px solid $main-color;
+                    border-radius: 25px;
+                    text-transform: uppercase;
+                }
+                button:hover{
+                    border: 0.5px solid $bg-color;
+                    color: $bg-color;
+                }
+                
+            }
+        }
+        
+        
+    }
+}
+
+.menu{
+    h2{
+        padding-top: 20px;
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 37px;
+        text-transform: uppercase;
+        color:$main-color;                    
+    }
+    .btnSubsection{
+        text-align: left;
+        font-family: Proxima Nova;
+        font-size: 20px;
+        line-height: 34px;
+        color:$main-color;
+        background-color: transparent;
+        border: none;
+    }
+    .btnSection{
+        text-align: left;
+        font-family: Proxima Nova;
+        font-size: 20px;
+        line-height: 34px;
+        color:$bg-color;
+        background-color: transparent;
+        border: none;
+    }
+    .btnSubsection:hover, .btnSection:hover{
+        color: #959595;
+    }
+
+}
+.tableTools{
+    img{
+        width: 130px;
+        height: 130px;
+    }
+    h6{
+        font-family: Proxima Nova;
+        font-size: 20px;
+        line-height: 34px;
+        color:$bg-color;
+        background-color: transparent;
+        border: none;
+    }
+    td{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid  $main-color;
+        font-size: 15px;
+    }
+    .dec{
+        width: 30%;
+    }
+    .price, .title{
+        width: 10%;
+    }
+    .btn{
+        width: 55px;
+    }
+}
+
+.login{
+    &-btns{
+        width: 400px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-btn{
+        width: 161px;
+        height: 37px;
+        background-color: Transparent;
+        color: $main-color;
+        border: 0.5px solid $main-color;
+        text-transform: uppercase;
+    }
+    &-btn:hover{
+        border: 0.5px solid $bg-color;
+        color: $bg-color;
+    }
+}
+
+.updatePage{
+    .form{
+        margin-top: 50px;
+        background: transparent;
+        textarea{
+            width: 76%;
+            border: none;
+            margin-left: 60px;
+            font-family: FuturaBookC;
+            font-size: 15px;
+            line-height: 24px;
+            color: $white;
+            background: $bg-color;
+        }
+        input{
+            font-size: 15px;
+        }
+        label{
+            font-family: FuturaBookC;
+            font-size: 18px;
+            line-height: 24px;
+            color:  #959595;
+        }
+    }
+    
+}
+.add{
+    .form{
+        width: 700px;
+        select{
+            border: none;
+            font-family: FuturaBookC;
+            font-size: 15px;
+            line-height: 24px;
+            color: $white;
+            background: $bg-color;
+        }
+        input, textarea{
+            width: 100%;
+            margin: 0px;
+        }
+        button{
+            margin-left: 250px;
+        }
+    }
+    height: 745px; 
+}
+
+.toolsCart{
+    width: 90%;
+    margin: 30px auto;
+    h2{
+        width: 100%;
+        text-align: center;
+    }
+    button{
+        width: 200px;
+        height: 30px;
+        background-color: Transparent;
+        color: $main-color;
+        border: 1px solid $main-color;
+        border-radius: 25px;
+        text-transform: uppercase;
+        margin-left: 100px;
+    }
+    button:hover{
+        border: 1px solid $bg-color;
+        color: $bg-color;
+    }
+    label{
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 60px;
+        margin-left: 265px;
+    }
+    .item{
+        height: 250px;
+    }
+    .item-pic{
+        margin-top: 30px;
+        margin-right: 70px;
+        float: left;
+    }
+    .item-info{
+        h3{
+            padding-top: 20px;
+            font-family: Yeseva One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        h4{
+            margin-top: -10px;
+            font-family: FuturaBookC;
+            font-size: 18px;
+            line-height: 26px;                    
+            color: #959595;
+        }
+        h5{
+            width: 95%;
+            font-family: FuturaBookC;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 20px;
+            padding-top: 15px;
+        }
+    }
+
+    .toolPrice{
+        margin-top: 30px;
+        h1{
+            margin-top: 10px;
+            font-family: Yeseva One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 25px;
+            margin-right: 100px;
+        }
+        
+        button{
+            width: 30px;
+            height: 30px;
+            background-color: Transparent;
+            color: $main-color;
+            border: 0.5px solid $main-color;
+            border-radius: 25px;
+            text-transform: uppercase;
+            margin-left: 0px;
+        }
+        button:hover{
+            border: 0.5px solid $bg-color;
+            color: $bg-color;
+        }
+        input{
+            width: 40px;
+            text-align: center;
+            border: none;
+            border-bottom: 0.5px solid $main-color;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        label{
+            font-family: Yeseva One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 27px;
+            margin-left: 150px;
+        }
+    }
+    .remove{
+        width: 100%;
+        height: 30px;
+        margin-top: 50px;
+        button{
+            margin-left: 0px;
+        }
+    }
+}

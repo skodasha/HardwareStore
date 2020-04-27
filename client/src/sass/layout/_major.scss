@@ -1,0 +1,28 @@
+.main{  
+    &--section1{
+        background: $bg-color;
+        display: flex;
+        height: 525px;
+        @media (max-width: 375px),(max-width: 560px){
+           height: 476px;
+        }
+    }
+
+    &--section7{
+        min-height: 1800px;
+        background: url(assets/images/bg_main_section1.png);
+        @media (max-width: 375px),(max-width: 540px){
+            background: $bg-color;
+            margin-top: -200px;
+        }
+    }
+}
+.login{
+    height: 600px;
+    background: url(assets/images/bg_main_section1.png);
+}
+
+.updatePage{
+    height: 610px;
+    background: url(assets/images/bg_main_section6.png);
+}
